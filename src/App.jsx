@@ -426,14 +426,14 @@ const LoveCalculator = () => {
               value={name1}
               onChange={(e) => setName1(e.target.value)}
               icon={User}
-              placeholder="Enter your name"
+              placeholder="Enter your first name"
             />
             <InputField
               label="Your Crush's Name"
               value={name2}
               onChange={(e) => setName2(e.target.value)}
               icon={User2}  // Changed to User2 icon
-              placeholder="Enter their name"
+              placeholder="Enter their first name"
             />
             <button
               onClick={handleCalculate}
