@@ -161,9 +161,9 @@ const WeddingKnot = ({ name1, name2 }) => {
   );
 };
 
-const HAPPY_SONGS = ['/public/songs/Aajse.mp3', '/public/songs/Tumsehi.mp3', '/public/songs/Tumse.mp3'];
-const MEDIUM_SONGS = ['/public/songs/Tuaisa.mp3', '/public/songs/SuniyaXTere.mp3', '/public/songs/Jaana.mp3'];
-const SAD_SONGS = ['/public/songs/Kyunkhuda.mp3'];
+const HAPPY_SONGS = ['/songs/Aajse.mp3', '/songs/Tumsehi.mp3', '/songs/Tumse.mp3'];
+const MEDIUM_SONGS = ['/songs/Tuaisa.mp3', '/songs/SuniyaXTere.mp3', '/songs/Jaana.mp3'];
+const SAD_SONGS = ['/songs/Kyunkhuda.mp3'];
 
 const getRandomSong = (songArray) => {
   return songArray[Math.floor(Math.random() * songArray.length)];
